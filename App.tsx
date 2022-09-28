@@ -147,7 +147,6 @@ import {Button} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const App = () => {
-  // const currTheme = useTheme();
   const [count, setCount] = useState(0);
   const rnType =
     Platform.OS === 'web' ? 'React Native Web' : 'React Native Android/IOS';

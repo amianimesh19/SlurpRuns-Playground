@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "547784979440",
+    "project_id": "slurpruns-playground",
+    "storage_bucket": "slurpruns-playground.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547784979440:android:c2c09ebe0fd3ed344e2335",
+        "android_client_info": {
+          "package_name": "com.slurpruns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547784979440-bjnui6ljagjljje2lv3e2kf7ev5dvdlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.slurpruns",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "547784979440-4fku83p1il4c88nmlv6vulrnk3n6ocp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpsUS7xep7fvxwatyikQQfX-lwsilCXfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547784979440-4fku83p1il4c88nmlv6vulrnk3n6ocp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

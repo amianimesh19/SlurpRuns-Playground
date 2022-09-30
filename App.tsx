@@ -139,15 +139,21 @@
 
 // export default App;
 
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Platform} from 'react-native';
 import {View, Text, StyleSheet} from 'react-native';
 import {Button} from 'react-native-paper';
 // import {useTheme} from './common/util';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import crashlytics from '@react-native-firebase/crashlytics';
 
 const App = () => {
+  // const currTheme = useTheme();
   const [count, setCount] = useState(0);
+  useEffect(() => {
+    crashlytics().log('App mounted.');
+  }, []);
+
   const rnType =
     Platform.OS === 'web' ? 'React Native Web' : 'React Native Android/IOS';
   return (
@@ -156,6 +162,7 @@ const App = () => {
       <Icon size={24} name={'group'} />
       <Button
         onPress={() => setCount(count + 1)}
+        // onPress={() => crashlytics().crash()}
         mode={'contained'}
         // labelStyle={{color: currTheme.colors.accent}}
       >

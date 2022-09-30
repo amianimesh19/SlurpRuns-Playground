@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>547784979440-2424p5arv68lpqnr53k1th6dg60pqgch.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.547784979440-2424p5arv68lpqnr53k1th6dg60pqgch</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>547784979440-bjnui6ljagjljje2lv3e2kf7ev5dvdlc.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBH8oNIX02QuRLh5D8Ii4rPTTPQnLEwOHQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>547784979440</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.SlurpRuns</string>
+	<key>PROJECT_ID</key>
+	<string>slurpruns-playground</string>
+	<key>STORAGE_BUCKET</key>
+	<string>slurpruns-playground.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:547784979440:ios:363bd5122f3cc1d54e2335</string>
+</dict>
+</plist>
